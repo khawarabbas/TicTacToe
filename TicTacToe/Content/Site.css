@@ -1,0 +1,42 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #f7f8fd !important;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.holder-div {
+    text-align: center;
+}
+    .holder-div .marker {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        border: 1px solid;
+        text-align: center;
+    }
+#divGameInformation {
+    text-align: center;
+}
+.m-t-10{
+    margin-top:10px;
+}
+.m-t-20{
+    margin-top:20px;
+}
+.card-style {
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    box-shadow: 8px 24px 80px 0 rgb(134 153 193 / 16%);
+    border-radius: 10px;
+    padding: 50px 50px 50px 50px;
+}
